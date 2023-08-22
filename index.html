@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>
+			Сеть центров X-Expert - продажа и сервисное обслуживание техники
+		</title>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+		<link rel="stylesheet" href="/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="/css/theme-style.css" />
+		<link rel="stylesheet" href="/css/custom.css" />
+		<link rel="stylesheet" href="/css/lib/swiper.css" />
+
+		<script src="/js/lib/jquery.js"></script>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header-top">
+					<div class="container">
+						<div class="header-top__logo logo">
+							<a class="logo__link" href="#">
+								<img class="logo__img" src="/img/logo.png" alt="" />
+							</a>
+						</div>
+						<div class="header-top__group">
+							<ul class="header-top__social-list social-list">
+								<li>
+									<a class="social-list__link" href="">
+										<svg
+											class="social-list__icon"
+											width="55"
+											height="55"
+											viewBox="0 0 55 55"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M46.75 0H8.25C3.69365 0 0 3.69365 0 8.25V46.75C0 51.3064 3.69365 55 8.25 55H46.75C51.3064 55 55 51.3064 55 46.75V8.25C55 3.69365 51.3064 0 46.75 0Z"
+												fill="#25D366"
+											/>
+											<path
+												d="M13.2124 42.2168L14.7163 35.2344C12.7834 32.1856 12.0293 28.5362 12.5957 24.971C13.162 21.4058 15.0098 18.1697 17.7923 15.87C20.5749 13.5702 24.101 12.3648 27.7091 12.48C31.3172 12.5951 34.7593 14.0228 37.3896 16.4953C40.0199 18.9678 41.6576 22.3151 41.9955 25.9091C42.3333 29.5032 41.3482 33.0971 39.2248 36.0164C37.1014 38.9358 33.9857 40.98 30.4623 41.7656C26.9389 42.5512 23.2499 42.0241 20.0874 40.2832L13.2124 42.2168Z"
+												fill="#25D366"
+												stroke="white"
+												stroke-width="1.69423"
+											/>
+											<path
+												d="M33.086 29.3262C32.7637 29.1114 32.4414 29.0039 32.1192 29.4336L30.8301 31.1524C30.5078 31.3672 30.293 31.4746 29.8633 31.2598C28.252 30.4004 25.9961 29.4336 24.0625 26.211C23.9551 25.7813 24.1699 25.5664 24.3848 25.3516L25.3516 23.8477C25.5664 23.6328 25.459 23.418 25.3516 23.2032L24.0625 20.0879C23.7403 19.2285 23.418 19.336 23.0957 19.336H22.2364C22.0215 19.336 21.5918 19.4434 21.1621 19.8731C18.7989 22.2364 19.7656 25.5664 21.4844 27.7149C21.8067 28.1446 23.9551 32.0117 28.5742 34.0528C32.0117 35.5567 32.7637 35.3418 33.7305 35.127C34.9121 35.0196 36.0938 34.0528 36.6309 33.086C36.7383 32.7637 37.2754 31.3672 36.8457 31.1524"
+												fill="white"
+											/>
+										</svg>
+									</a>
+								</li>
+							</ul>
+							<dl class="header-top__contacts contacts">
+								<dt>
+									<a class="contacts__link" href="tel:84956462629"
+										>8 (495) 646-26-29</a
+									>
+								</dt>
+								<dd>
+									<address class="contacts__address">шоссе Энтузиастов</address>
+								</dd>
+							</dl>
+						</div>
+						<button
+							class="header-top__btn btn btn_yellow btn_no-transform btn_callback"
+						>
+							Заказать звонок
+						</button>
+						<button
+							class="burger-icon"
+							data-type="trigger"
+							data-target="headerCollapse"
+						>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="33"
+								height="22"
+								viewBox="0 0 33 22"
+								fill="none"
+							>
+								<path d="M0 1H33" stroke="black" stroke-width="2" />
+								<path d="M0 11H33" stroke="black" stroke-width="2" />
+								<path d="M0 21H33" stroke="black" stroke-width="2" />
+							</svg>
+						</button>
+					</div>
+				</div>
+				<div
+					class="header-collapse collapsed"
+					id="headerCollapse"
+					data-type="collapsed"
+				>
+					<nav class="header-nav">
+						<div class="container">
+							<ul class="header-nav__list">
+								<li><a class="header-nav__link" href="">О компании</a></li>
+								<li><a class="header-nav__link" href="">Новости</a></li>
+								<li><a class="header-nav__link" href="">Спецпредложения</a></li>
+								<li><a class="header-nav__link" href="">Инструкции</a></li>
+								<li><a class="header-nav__link" href="">Сервис</a></li>
+								<li><a class="header-nav__link" href="">Контакты</a></li>
+							</ul>
+						</div>
+					</nav>
+					<div class="header-bottom">
+						<div class="container">
+							<ul class="header-bottom__list">
+								<li>
+									<a class="header-bottom__link" href=""
+										>мотовездеходы<br />
+										side-by-side</a
+									>
+								</li>
+								<li>
+									<a class="header-bottom__link" href=""
+										>квадроциклы<br />
+										can-am</a
+									>
+								</li>
+								<li>
+									<a class="header-bottom__link" href=""
+										>снегоходы<br />
+										ski-doo & LYNX</a
+									>
+								</li>
+								<li>
+									<a class="header-bottom__link" href=""
+										>гидроциклы<br />
+										sea-doo</a
+									>
+								</li>
+								<li><a class="header-bottom__link" href="">моторы</a></li>
+								<li>
+									<a class="header-bottom__link" href=""
+										>одежда<br />
+										аксессуары и запчасти</a
+									>
+								</li>
+								<li>
+									<a class="header-bottom__link" href="">техника б/у</a>
+								</li>
+							</ul>
+							<div class="header-bottom__mobile">
+								<details>
+									<summary>Каталог</summary>
+									<ul class="header-bottom__list">
+										<li>
+											<a class="header-bottom__link" href=""
+												>мотовездеходы<br />
+												side-by-side</a
+											>
+										</li>
+										<li>
+											<a class="header-bottom__link" href=""
+												>квадроциклы<br />
+												can-am</a
+											>
+										</li>
+										<li>
+											<a class="header-bottom__link" href=""
+												>снегоходы<br />
+												ski-doo & LYNX</a
+											>
+										</li>
+										<li>
+											<a class="header-bottom__link" href=""
+												>гидроциклы<br />
+												sea-doo</a
+											>
+										</li>
+										<li><a class="header-bottom__link" href="">моторы</a></li>
+										<li>
+											<a class="header-bottom__link" href=""
+												>одежда<br />
+												аксессуары и запчасти</a
+											>
+										</li>
+										<li>
+											<a class="header-bottom__link" href="">техника б/у</a>
+										</li>
+									</ul>
+								</details>
+								<button
+									class="header-bottom__btn btn btn_black btn_no-transform btn_callback"
+								>
+									Заказать звонок
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main>
+				<section class="banner">
+					<div class="swiper hero-slider">
+						<div class="swiper-wrapper">
+							<div
+								class="hero-slider__slide swiper-slide"
+								style="background-image: url(/img/banner.png)"
+							></div>
+						</div>
+					</div>
+				</section>
+
+				<section class="advantages">
+					<div class="container">
+						<div class="row">
+							<h2 class="advantages__title title">Наши преимущества</h2>
+						</div>
+						<ul class="advantages-list row">
+							<div class="col-md-6 col-sm-12">
+								<li>Работаем только с техникой BRP, с 2007 года</li>
+								<li>Тест-драйв техники</li>
+								<li>Выездное техническое обслуживание</li>
+								<li>Кредитные программы</li>
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<li>Большой склад аксессуаров</li>
+								<li>Удобное расположение</li>
+								<li>Наличный и безналичный расчет</li>
+								<li>Техника в наличии</li>
+							</div>
+						</ul>
+					</div>
+				</section>
+
+				<section class="new-products">
+					<div class="container">
+						<div class="row">
+							<h2 class="new-products__title title">Новинки каталога</h2>
+						</div>
+						<div class="swiper new-products-slider">
+							<div class="swiper-wrapper">
+								<div class="products-slider__slide swiper-slide">
+									<img src="/img/item.png" alt="" />
+									<div>EVINRUDE V6 150 Л.С.</div>
+								</div>
+								<div class="products-slider__slide swiper-slide">
+									<img src="/img/item.png" alt="" />
+									<div>EVINRUDE V6 150 Л.С.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="our-clients">
+					<div class="container">
+						<div class="row">
+							<h2 class="our-clients__title title">Наши клиенты</h2>
+						</div>
+						<div class="swiper our-clients-slider">
+							<div class="swiper-wrapper">
+								<div class="our-clients-slider__slide swiper-slide">
+									<img src="/img/sber.png" alt="" />
+								</div>
+								<div class="our-clients-slider__slide swiper-slide">
+									<img src="/img/lucoil.png" alt="" />
+								</div>
+								<div class="our-clients-slider__slide swiper-slide">
+									<img src="/img/infiniti.png" alt="" />
+								</div>
+								<div class="our-clients-slider__slide swiper-slide">
+									<img src="/img/gazprom.png" alt="" />
+								</div>
+								<div class="our-clients-slider__slide swiper-slide">
+									<img src="/img/land-rover.png" alt="" />
+								</div>
+							</div>
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					</div>
+				</section>
+
+				<section class="news">
+					<div class="container">
+						<ul class="news-tabs nav nav-tabs" style="margin-bottom: 55px">
+							<li class="news-tabs__item nav-item active">
+								<a
+									aria-expanded="true"
+									class="nav-link active news-tabs__btn"
+									data-toggle="tab"
+									href="#news"
+									>Новости</a
+								>
+							</li>
+							<li class="news-tabs__item nav-item">
+								<a
+									class="nav-link news-tabs__btn"
+									data-toggle="tab"
+									href="#club"
+									>КЛУБ BRP</a
+								>
+							</li>
+						</ul>
+						<div class="col-md-8 col-sm-12" style="padding: unset">
+							<div class="news-list">
+								<div class="news-tabs__content tab-content">
+									<div
+										class="news-tabs__pane tab-pane fade show active in"
+										id="news"
+									>
+										<div class="swiper news-slider">
+											<div class="swiper-wrapper">
+												<div class="news-slider__slide swiper-slide">
+													<article class="news-detail">
+														<img
+															class="news-detail__preview"
+															src="/img/new-1.jpg"
+															alt=""
+														/>
+														<div class="news-detail__info">
+															<time class="news-detail__date">10.03.2023</time>
+															<span class="news-detail__name"
+																>Поступили в продажу квадроциклы BRP
+															</span>
+														</div>
+													</article>
+												</div>
+												<div class="news-slider__slide swiper-slide">
+													<article class="news-detail">
+														<img
+															class="news-detail__preview"
+															src="/img/new-2.jpg"
+															alt=""
+														/>
+														<div class="news-detail__info">
+															<time class="news-detail__date">18.01.2023</time>
+															<span class="news-detail__name"
+																>Импорт BRP работает исправно.
+															</span>
+														</div>
+													</article>
+												</div>
+												<div class="news-slider__slide swiper-slide">
+													<article class="news-detail">
+														<img
+															class="news-detail__preview"
+															src="/img/new-3.jpg"
+															alt=""
+														/>
+														<div class="news-detail__info">
+															<time class="news-detail__date">21.12.2022</time>
+															<span class="news-detail__name"
+																>Снегоходы SKI-DOO и LYNX 2023 модельного года -
+																в наличии с нашем салоне!
+															</span>
+														</div>
+													</article>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="news-tabs__pane tab-pane fade" id="club">
+										Характеристики товара...
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-12 col-md-offset-1">
+							<div class="news-advice">
+								<img src="/img/advice.jpg" alt="" />
+							</div>
+						</div>
+					</div>
+					<button class="news-all__btn btn_full">Все новости</button>
+				</section>
+
+				<section class="about-us">
+					<img
+						src="/img/about.jpg"
+						alt="Гоночный болид"
+						class="about-us__img"
+					/>
+					<div class="container">
+						<div class="about-us__info">
+							<h2 class="about-us__title title">О компании</h2>
+							<h3 class="about-us__subtitle">
+								Техника Bombardier – выбор достойный каждого
+							</h3>
+							<div class="about-us__text">
+								<p>
+									Активный отдых – это возможность совместить приятное с
+									полезным. Отправляясь зимой в лес на снегоходе, можно не
+									только от души покататься по снежным барханам, но и
+									насладиться пейзажем или, прихватив с собой ружье,
+									посоревноваться в стрельбе. Мототехника BRP – надежный спутник
+									в покорении новых горизонтов.
+								</p>
+								<p>
+									Ассортимент надежной мототехники BRP поражает разнообразием и
+									доступностью Первый в мире гидромотоцикл появился в далеком
+									1968 году, и его создателем был ни кто иной, как Bombardier
+									Recreational Products.
+								</p>
+								<p>
+									Спустя несколько лет этот вид техники попал в серийное
+									производство и с тех пор его модели постоянно
+									совершенствуются, пополняя арсенал новыми моделями.Довольно
+									долго приобретение гидромотоцикла BRP могли себе позволить
+									только очень обеспеченные люди, но в последнее время цены
+									значительно снизились, и продажи подскочили вверх.
+								</p>
+								<p>
+									Моделей этого вида водного транспорта насчитывается так много,
+									что сделать оптимальный выбор сможет любой желающий.
+								</p>
+								<p>
+									Квадроцикл BRP или, как его еще называют, мотовездеход может
+									проехать там, куда не всякий трактор сунется, поэтому он
+									хорошо подойдет любителям экстремального туризма.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="about-us__btn btn btn_full">ЧИТАТЬ ПОЛНОСТЬЮ</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="footer-col col-md-4 col-xs-12">
+							<h2 class="footer-col__title title">
+								Ремонт и обслуживание мототехники
+							</h2>
+							<span
+								>Квадроциклов снегоходов, <br />гидроциклов, моторов
+								Evinrude</span
+							>
+							<address>по Москве<br />и Московской области</address>
+							<div class="footer-col__search search">
+								<form method="post" action="/search/">
+									<input
+										class="search__field"
+										type="search"
+										name="search-field"
+										placeholder="ищем тут"
+									/>
+									<input class="search__submit" type="submit" value="найти" />
+								</form>
+							</div>
+						</div>
+						<div class="footer-col col-md-2 col-xs-12">
+							<ul class="footer-menu">
+								<li><a class="footer-menu__link" href="">Главная</a></li>
+								<li><a class="footer-menu__link" href="">Выезд к вам</a></li>
+								<li><a class="footer-menu__link" href="">Эвакуатор</a></li>
+								<li><a class="footer-menu__link" href="">Почему мы</a></li>
+								<li><a class="footer-menu__link" href="">Контакты</a></li>
+							</ul>
+						</div>
+						<div class="footer-col col-md-2 col-xs-12">
+							<ul class="footer-menu">
+								<li>
+									<a class="footer-menu__link" href="">Ремонт квадроциклов</a>
+								</li>
+								<li>
+									<a class="footer-menu__link" href="">Ремонт гидроциклов</a>
+								</li>
+								<li>
+									<a class="footer-menu__link" href="">Ремонт снегоходов</a>
+								</li>
+								<li><a class="footer-menu__link" href="">Ремонт моторов</a></li>
+								<li>
+									<a class="footer-menu__link" href="">Запчасти и аксессуары</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer-col col-md-4 col-xs-12">
+							<div class="footer-row">
+								<dl class="footer__contacts contacts">
+									<dt>
+										<a class="contacts__link" href="tel:84956462629"
+											>8 (495) 646-26-29</a
+										>
+									</dt>
+									<dd>
+										<address class="contacts__address">
+											шоссе Энтузиастов
+										</address>
+									</dd>
+								</dl>
+								<ul class="header-top__social-list social-list">
+									<li>
+										<a class="social-list__link" href="">
+											<svg
+												class="social-list__icon"
+												width="55"
+												height="55"
+												viewBox="0 0 55 55"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M46.75 0H8.25C3.69365 0 0 3.69365 0 8.25V46.75C0 51.3064 3.69365 55 8.25 55H46.75C51.3064 55 55 51.3064 55 46.75V8.25C55 3.69365 51.3064 0 46.75 0Z"
+													fill="#25D366"
+												/>
+												<path
+													d="M13.2124 42.2168L14.7163 35.2344C12.7834 32.1856 12.0293 28.5362 12.5957 24.971C13.162 21.4058 15.0098 18.1697 17.7923 15.87C20.5749 13.5702 24.101 12.3648 27.7091 12.48C31.3172 12.5951 34.7593 14.0228 37.3896 16.4953C40.0199 18.9678 41.6576 22.3151 41.9955 25.9091C42.3333 29.5032 41.3482 33.0971 39.2248 36.0164C37.1014 38.9358 33.9857 40.98 30.4623 41.7656C26.9389 42.5512 23.2499 42.0241 20.0874 40.2832L13.2124 42.2168Z"
+													fill="#25D366"
+													stroke="white"
+													stroke-width="1.69423"
+												/>
+												<path
+													d="M33.086 29.3262C32.7637 29.1114 32.4414 29.0039 32.1192 29.4336L30.8301 31.1524C30.5078 31.3672 30.293 31.4746 29.8633 31.2598C28.252 30.4004 25.9961 29.4336 24.0625 26.211C23.9551 25.7813 24.1699 25.5664 24.3848 25.3516L25.3516 23.8477C25.5664 23.6328 25.459 23.418 25.3516 23.2032L24.0625 20.0879C23.7403 19.2285 23.418 19.336 23.0957 19.336H22.2364C22.0215 19.336 21.5918 19.4434 21.1621 19.8731C18.7989 22.2364 19.7656 25.5664 21.4844 27.7149C21.8067 28.1446 23.9551 32.0117 28.5742 34.0528C32.0117 35.5567 32.7637 35.3418 33.7305 35.127C34.9121 35.0196 36.0938 34.0528 36.6309 33.086C36.7383 32.7637 37.2754 31.3672 36.8457 31.1524"
+													fill="white"
+												/>
+											</svg>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<button class="btn btn_yellow btn_no-transform btn_callback">
+								Заказать звонок
+							</button>
+							<div class="footer-copy">
+								<p>
+									Наш сайт разработали в
+									<a>ASM Forward Media</a>
+								</p>
+								<p>
+									Системный интернет-маркетинг
+									<a>ASM Forward Media</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			-->
+		</div>
+
+		<script src="/js/lib/bootstrap.min.js"></script>
+		<script type="module" src="/js/main.js"></script>
+	</body>
+</html>
